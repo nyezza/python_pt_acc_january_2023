@@ -7,8 +7,8 @@
 
 <br/>
 
-<img src="CD_Horizontal_Logo_Blue.png" alt="Coding Dojo Logo" width="180">
+<img src="./assets/CD_Horizontal_Logo_Blue.png" alt="Coding Dojo Logo" width="180">
 
 <br/>
 
-<img src="Python-logo.png" alt="Python logo" width="180">
+<img src="./assets/Python-logo.png" alt="Python logo" width="180">
