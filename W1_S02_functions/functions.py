@@ -3,26 +3,26 @@
 # # - could tak a parameters
 # # - all functions Must Return Something (even it's None)
 
-# def say_Hi():
-#     print("Hi")
+def say_Hi():
+    print("Hi")
 
 # # ! INVOKE the function
 # # say_Hi()
 
-# def multiply(*args):
-#     a = 1
-#     for i in args:
-#         a *= i
-#     return a
+def multiply(*args):
+    a = 1
+    for i in args:
+        a *= i
+    return a
 
-# # print(multiply(2,3,4,5,852))
+print(multiply(2,3,4,5,852))
 
-# alex = {'id':1,'first_name':"Alex", 'last_name':"Max"}
+alex = {'id':1,'first_name':"Alex", 'last_name':"Max"}
 
-# def find_user(**kwargs):
-#     print(f'{kwargs["first_name"]}  ')
+def find_user(**kwargs):
+    print(f'{kwargs["first_name"]}  ')
 
-# find_user(id= 2, first_name="Alex")
+find_user(id= 2, first_name="Alex")
 
 
 a = 30
@@ -40,4 +40,4 @@ print(a) #30
 
 # Start with the local 
 # Parent local scope
-#  Global Scope
+# Global Scope
