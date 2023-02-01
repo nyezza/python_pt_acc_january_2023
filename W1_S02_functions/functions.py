@@ -1,13 +1,14 @@
 # # Function
 # # - a set on instructions
 # # - could tak a parameters
-# # - all functions Must Return Something (even it's None)
 
-def say_Hi():
+#! # - all functions or Methods Must Return Something (even it's None)
+
+def say_hi():
     print("Hi")
 
 # # ! INVOKE the function
-# # say_Hi()
+# # say_hi()
 
 def multiply(*args):
     a = 1

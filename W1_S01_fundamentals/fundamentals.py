@@ -26,6 +26,9 @@ test_result = False
 
 is_happy = True
 
+#- NoneType is a defined datatype 
+empty_value = None
+
 # Array in JS == List in python
 #          0 1 2 3 4 5 
 numbers = [1,2,3,4,5,6]
@@ -41,6 +44,7 @@ numbers.pop(2)
 # Objects in JavaScript == Dictionnaries (Pandas, Numpy) 
 
 student = {
+    # - Key       Value
     'first_name':"Mark",
     'last_name':"Taylor",
     'age':28,

@@ -29,6 +29,12 @@ student = {
 # for key,value in student.items():
 #     print(f"{key} == {value}")
 
+# for key in student.keys():
+#   print(key)
+
+# for value in student.values():
+#   print(value)
+
 # x = 5
 # while x> 0:
 #     print("Yes")
