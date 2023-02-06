@@ -39,9 +39,8 @@ class Student:
 
     # * This is a static method it will no change anything it's only for display or validations
     @staticmethod
-    def display_info(self):
+    def display_info():
         print(f"Student name is {self.first_name} {self.last_name} he is {self.age} years old and he had {self.grade} points in Algos")
-        return self
 
     @staticmethod
     def will_pass(self):
