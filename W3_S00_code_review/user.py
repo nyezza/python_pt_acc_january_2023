@@ -12,10 +12,10 @@ class User:
     #     for account in BankAccount.all_accounts:
     #         if account.id in self.account_ids:
     #             print(account.balance)
-
+# FIXME : 
 
 john = User("John",39,"j@email.com")
-# print("Banck Account Id",john.bank_accounts[0].id)
+# print("Bank Account Id",john.bank_accounts[0].id)
 # alex = User("Alex", 35, "alex.email.com")
 # john.bank_accounts.append(BankAccount(1000,0.5))
 # john.bank_accounts.append(BankAccount(5000,0.5))
